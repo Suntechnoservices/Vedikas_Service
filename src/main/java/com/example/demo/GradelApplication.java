@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GradelApplication {
 @RequestMapping("/hello")
 public String test() {
-	return "hello";
+	return "sun";
 }
 	public static void main(String[] args) {
 		SpringApplication.run(GradelApplication.class, args);
